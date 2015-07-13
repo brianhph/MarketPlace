@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_MarketPlace_FZCarousel : NSObject
-@end
-@implementation PodsDummy_Pods_MarketPlace_FZCarousel
-@end
