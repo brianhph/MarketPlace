@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2665DBE91B536595006F8CA0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665DBE71B536595006F8CA0 /* HomeViewController.m */; };
+		2665DBEA1B536595006F8CA0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2665DBE81B536595006F8CA0 /* HomeViewController.xib */; };
+		2665DBEE1B5365AE006F8CA0 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665DBEC1B5365AE006F8CA0 /* ListViewController.m */; };
+		2665DBEF1B5365AE006F8CA0 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2665DBED1B5365AE006F8CA0 /* ListViewController.xib */; };
+		2665DBF31B5365BD006F8CA0 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665DBF11B5365BD006F8CA0 /* ItemViewController.m */; };
+		2665DBF41B5365BD006F8CA0 /* ItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2665DBF21B5365BD006F8CA0 /* ItemViewController.xib */; };
 		26AEFF261B50F94F009954DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFF251B50F94F009954DC /* main.m */; };
 		26AEFF291B50F94F009954DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFF281B50F94F009954DC /* AppDelegate.m */; };
 		26AEFF2C1B50F94F009954DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFF2B1B50F94F009954DC /* ViewController.m */; };
@@ -14,6 +20,7 @@
 		26AEFF311B50F94F009954DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFF301B50F94F009954DC /* Images.xcassets */; };
 		26AEFF341B50F94F009954DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26AEFF321B50F94F009954DC /* LaunchScreen.xib */; };
 		26AEFF401B50F94F009954DC /* MarketPlaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AEFF3F1B50F94F009954DC /* MarketPlaceTests.m */; };
+		FEAECF2B041D43845F6AAC04 /* libPods-MarketPlace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3BEC0834635334DF33C762 /* libPods-MarketPlace.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1BCBFBC90B58A664C152F3 /* Pods-MarketPlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketPlace.release.xcconfig"; path = "Pods/Target Support Files/Pods-MarketPlace/Pods-MarketPlace.release.xcconfig"; sourceTree = "<group>"; };
+		2665DBE61B536595006F8CA0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		2665DBE71B536595006F8CA0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		2665DBE81B536595006F8CA0 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2665DBEB1B5365AE006F8CA0 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		2665DBEC1B5365AE006F8CA0 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		2665DBED1B5365AE006F8CA0 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		2665DBF01B5365BD006F8CA0 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		2665DBF11B5365BD006F8CA0 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		2665DBF21B5365BD006F8CA0 /* ItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemViewController.xib; sourceTree = "<group>"; };
 		26AEFF201B50F94F009954DC /* MarketPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AEFF241B50F94F009954DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26AEFF251B50F94F009954DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +57,8 @@
 		26AEFF391B50F94F009954DC /* MarketPlaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketPlaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26AEFF3E1B50F94F009954DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26AEFF3F1B50F94F009954DC /* MarketPlaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketPlaceTests.m; sourceTree = "<group>"; };
+		8A3BEC0834635334DF33C762 /* libPods-MarketPlace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarketPlace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC529F00A6BC9B93EDEFBF77 /* Pods-MarketPlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketPlace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MarketPlace/Pods-MarketPlace.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEAECF2B041D43845F6AAC04 /* libPods-MarketPlace.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +80,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2510599C69FF9591D08F2537 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC529F00A6BC9B93EDEFBF77 /* Pods-MarketPlace.debug.xcconfig */,
+				1F1BCBFBC90B58A664C152F3 /* Pods-MarketPlace.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2665DBE11B53653F006F8CA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2665DBE51B53656D006F8CA0 /* Item */,
+				2665DBE41B536565006F8CA0 /* List */,
+				2665DBE31B53655D006F8CA0 /* Common */,
+				2665DBE21B536552006F8CA0 /* Home */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2665DBE21B536552006F8CA0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2665DBE61B536595006F8CA0 /* HomeViewController.h */,
+				2665DBE71B536595006F8CA0 /* HomeViewController.m */,
+				2665DBE81B536595006F8CA0 /* HomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		2665DBE31B53655D006F8CA0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		2665DBE41B536565006F8CA0 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2665DBEB1B5365AE006F8CA0 /* ListViewController.h */,
+				2665DBEC1B5365AE006F8CA0 /* ListViewController.m */,
+				2665DBED1B5365AE006F8CA0 /* ListViewController.xib */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		2665DBE51B53656D006F8CA0 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				2665DBF01B5365BD006F8CA0 /* ItemViewController.h */,
+				2665DBF11B5365BD006F8CA0 /* ItemViewController.m */,
+				2665DBF21B5365BD006F8CA0 /* ItemViewController.xib */,
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
 		26AEFF171B50F94F009954DC = {
 			isa = PBXGroup;
 			children = (
 				26AEFF221B50F94F009954DC /* MarketPlace */,
 				26AEFF3C1B50F94F009954DC /* MarketPlaceTests */,
 				26AEFF211B50F94F009954DC /* Products */,
+				2510599C69FF9591D08F2537 /* Pods */,
+				9B2FB607FC9DDB6F18AF6D81 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +160,8 @@
 		26AEFF221B50F94F009954DC /* MarketPlace */ = {
 			isa = PBXGroup;
 			children = (
+				2665DBE11B53653F006F8CA0 /* View */,
+				26AEFF491B50F9C6009954DC /* Model */,
 				26AEFF271B50F94F009954DC /* AppDelegate.h */,
 				26AEFF281B50F94F009954DC /* AppDelegate.m */,
 				26AEFF2A1B50F94F009954DC /* ViewController.h */,
@@ -119,6 +200,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		26AEFF491B50F9C6009954DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9B2FB607FC9DDB6F18AF6D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3BEC0834635334DF33C762 /* libPods-MarketPlace.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26AEFF431B50F94F009954DC /* Build configuration list for PBXNativeTarget "MarketPlace" */;
 			buildPhases = (
+				6E6F96D86EFAA214F85EF777 /* Check Pods Manifest.lock */,
 				26AEFF1C1B50F94F009954DC /* Sources */,
 				26AEFF1D1B50F94F009954DC /* Frameworks */,
 				26AEFF1E1B50F94F009954DC /* Resources */,
+				84D85162A69383E261F4A076 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				26AEFF2F1B50F94F009954DC /* Main.storyboard in Resources */,
+				2665DBF41B5365BD006F8CA0 /* ItemViewController.xib in Resources */,
 				26AEFF341B50F94F009954DC /* LaunchScreen.xib in Resources */,
+				2665DBEF1B5365AE006F8CA0 /* ListViewController.xib in Resources */,
 				26AEFF311B50F94F009954DC /* Images.xcassets in Resources */,
+				2665DBEA1B536595006F8CA0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +315,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E6F96D86EFAA214F85EF777 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84D85162A69383E261F4A076 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MarketPlace/Pods-MarketPlace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26AEFF1C1B50F94F009954DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2665DBEE1B5365AE006F8CA0 /* ListViewController.m in Sources */,
+				2665DBF31B5365BD006F8CA0 /* ItemViewController.m in Sources */,
 				26AEFF2C1B50F94F009954DC /* ViewController.m in Sources */,
 				26AEFF291B50F94F009954DC /* AppDelegate.m in Sources */,
 				26AEFF261B50F94F009954DC /* main.m in Sources */,
+				2665DBE91B536595006F8CA0 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +482,7 @@
 		};
 		26AEFF441B50F94F009954DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC529F00A6BC9B93EDEFBF77 /* Pods-MarketPlace.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarketPlace/Info.plist;
@@ -355,6 +493,7 @@
 		};
 		26AEFF451B50F94F009954DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1BCBFBC90B58A664C152F3 /* Pods-MarketPlace.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MarketPlace/Info.plist;
@@ -416,6 +555,7 @@
 				26AEFF451B50F94F009954DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		26AEFF461B50F94F009954DC /* Build configuration list for PBXNativeTarget "MarketPlaceTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +564,7 @@
 				26AEFF481B50F94F009954DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

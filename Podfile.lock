@@ -1,0 +1,10 @@
+PODS:
+  - FZCarousel (0.1.0)
+
+DEPENDENCIES:
+  - FZCarousel
+
+SPEC CHECKSUMS:
+  FZCarousel: c54b910262c8457e84bd3b9058ca10be3530a165
+
+COCOAPODS: 0.37.2
